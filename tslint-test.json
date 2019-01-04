@@ -1,0 +1,14 @@
+{
+  "extends": "tslint:all",
+  "rules": {
+    "comment-format": false,
+    "file-name-casing": false,
+    "newline-per-chained-call": false,
+    "no-console": false,
+    "no-empty": false,
+    "no-implicit-dependencies": false,
+    "no-magic-numbers": false,
+    "no-unsafe-any": false,
+    "typedef": false
+  }
+}
