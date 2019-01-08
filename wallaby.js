@@ -1,7 +1,8 @@
 module.exports = function () {
   return {
     files: [
-      'src/**/*(\.test){0}.tsx'
+      'src/**/*.tsx',
+      '!src/**/*.test.tsx'
     ],
     testFramework: 'jest',
     env: {
